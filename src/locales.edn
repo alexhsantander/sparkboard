@@ -4,14 +4,14 @@
 
 {:forms/validators.required {:en "{label, default, Field} is required."
                              :fr "{label, default, Champ} requis."
-                             :es "Se requiere {label, default, este campo}."}
+                             :es "Se requiere {etiqueta, predeterminado, Campo}."}
  :forms/validators.min-length {:en "{label, default, Text} is too short (minimum {n} characters)"
                                :fr "{label, default, Le champ} est trop court (minimum {n} caractères)"
-                               :es "{label, default, El campo} es demasiado corto (mínimo {n} caracteres)"}
+                               :es "{etiqueta, predeterminado, El campo} es demasiado corto (mínimo {n} caracteres)"}
 
  :forms/validators.max-length {:en "{label, default, Text} is too long (max {n} characters)"
                                :fr "{label, default, Le texte} est trop long (max {n} caractères)"
-                               :es "{label, default, El campo} es demasiado largo (máximo {n} caracteres)"}
+                               :es "{etiqueta, predeterminado, El campo} es demasiado largo (máximo {n} caracteres)"}
  :forms/validators.confirm-password {:en "Passwords must match"
                                      :fr "les mots de passe doivent correspondre"
                                      :es "Las contraseñas deben coincidir"}
@@ -21,13 +21,13 @@
               :es "Opcional"}
  :i/feedback {:en "Feedback"
               :fr "Commentaires"
-              :es "Feedback"}
+              :es "Comentarios"}
  :i/bug-report {:en "Bug Report"
                 :fr "Rapport d'erreur"
-                :es "Informe de error"}
+                :es "Reporte de errores"}
  :i/upload {:en "Upload"
             :fr "télécharger"
-            :es "Subir"}
+            :es "Cargar"}
  :i/your-message {:en "Your Message"
                   :fr "Votre message"
                   :es "Tu mensaje"}
@@ -42,7 +42,7 @@
             :es "Seleccionar"}
  :i/summary {:en "Summary"
              :fr "l'introduction"
-             :es "Resumen"}
+             :es "Introducción"}
  :i/question {:en "Question"
               :es "Pregunta"}
  :i/suggestion {:en "Suggestion"
@@ -78,34 +78,34 @@
            :es "Título"}
  :auth/welcome-register {:en "Sign Up for Sparkboard"
                          :fr "Inscrivez-vous pour Sparkboard"
-                         :es "Regístrese en Sparkboard"}
+                         :es "Regístrate en Sparkboard"}
  :auth/welcome-sign-in {:en "Sign in to Sparkboard"
                         :fr "Connexion au Sparkboard"
                         :es "Iniciar sesión en Sparkboard"}
  :auth/not-public {:en "Invitation required. Please ask the organizer(s) for access."
                    :fr "Invitation requise. S'il vous plaît demander à l'organisateur (s) pour l'accès."
-                   :es "Se requiere invitación. Solicite acceso a los organizadores."}
+                   :es "Se requiere invitación. Solicita acceso a los organizadores."}
  :auth/checking-permission {:en "Checking permissions..."
                             :fr "Vérification des autorisations ..."
-                            :es "Comprobando permisos ..."}
+                            :es "Comprobando permisos..."}
  :auth/invalid-code {:en "That's an invalid code. Please contact an organizer."
                      :fr "C'est un code invalide. Veuillez contacter un organisateur."
-                     :es "Ese es un código no válido. Comunícate con un organizador."}
+                     :es "Código no válido. Comunícate con un organizador."}
  :auth/auth-required {:en "Authentication required"
                       :fr "Authentification requise"
-                      :es "Autenticacion requerida"}
+                      :es "Autenticación requerida"}
  :i/published {:en "Published"
                :fr "Publié"
                :es "Publicado"}
  :i/required {:en "required"
               :fr "obligatoire"
-              :es "necesario"}
+              :es "obligatorio"}
  :i/signed-in-as {:en "You are signed in as {name}."
                   :fr "Vous êtes connecté en tant que {name}."
                   :es "Has iniciado sesión como {name}"}
  :i/sign-out {:en "Sign Out"
               :fr "se déconnecter"
-              :es "Desconectar"}
+              :es "Desconectarse"}
  :i/sign-in {:en "Sign In"
              :fr "se connecter"
              :es "Registrarse"}
@@ -198,7 +198,7 @@
              :es "Filtros"}
  :i/looking-for-help {:en "Looking for Help"
                       :fr "Demander de l'aide"
-                      :es "En busca de ayuda"}
+                      :es "Buscando ayuda"}
  :i/looking-for {:en "Looking For"
                  :fr "À la recherche de"
                  :es "Buscando"}
@@ -210,13 +210,13 @@
              :es "Proyecto"}
  :i/person {:en "Person"
             :fr "Participant"
-            :es "Persona"}
+            :es "Participante"}
  :i/projects {:en "Projects"
               :fr "Projets"
               :es "Proyectos"}
  :i/people {:en "People"
             :fr "Participants"
-            :es "Gente"}
+            :es "Participantes"}
  :i/date-added {:en "Date Added"
                 :fr "date ajoutée"
                 :es "Fecha Agregada"}
@@ -253,7 +253,7 @@
                        :es "Error de autenticación de Firebase"}
  :i/membership {:en "Membership"
                 :fr "Adhésion"
-                :es "Afiliación"}
+                :es "Membresía"}
  :i/add-a-member {:en "Add a Member"
                   :fr "Ajouter un membre"
                   :es "Agregar un miembro"}
@@ -268,7 +268,7 @@
           :es "Equipo"}
  :i/boards {:en "Boards"
             :fr "Tableaux de bord"
-            :es "Tablas"}
+            :es "Tableros"}
  :i/sort {:en "Sort"
           :fr "Trier"
           :es "Ordenar"}
@@ -277,7 +277,7 @@
           :es "Salvar"}
  :i/done {:en "Done"
           :fr "Terminer"
-          :es "Hecho"}
+          :es "Terminado"}
  :i/join {:en "Join"
           :fr "se joindre"
           :es "Unirse"}
@@ -298,7 +298,7 @@
            :es "Tema"}
  :i/participant {:en "Participant"
                  :fr "Participant"
-                 :es "Partícipe"}
+                 :es "Participante"}
  :i/participants {:en "Participants"
                   :fr "Participants"
                   :es "Participantes"}
@@ -313,7 +313,7 @@
  :membership.create.consent/contact-details
  {:en "Allow my contact details to be shared with {title} for organizational purposes"
   :fr "Permettre à mes coordonnées d'être partagées avec {title} à des fins d'organisation"
-  :es "Permitir que mis datos de contacto se compartan con {title} para fines organizativos"}
+  :es "Permitir que mis datos de contacto se compartan con {title} para fines de organización"}
  :membership.create.consent/terms
  {:en "I agree to the terms & conditions for {title}."
   :fr "J'accepte les termes et conditions pour {title}."
@@ -323,7 +323,7 @@
               :es "Continuar"}
 
  :i/join-entity {:en "Become a member of {title}"
-                 :es "Hágase miembro de {title}"}
+                 :es "Convertirse en miembro de {title}"}
  :i/join-this-board {:en "Join this board"
                      :fr "Rejoindre ce groupe"
                      :es "Únete a este foro"}
